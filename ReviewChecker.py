@@ -51,7 +51,7 @@ def potential_bot(review):
 
 
 # Set up the webdriver (in this example, using Chrome)
-driver = webdriver.Edge()
+driver = webdriver.Chrome()
 product_url = 'https://www.amazon.com/Bose-QuietComfort-45-Bluetooth-Canceling-Headphones/dp/B098FH5P3C/ref=asc_df_B098FKXT8L/?tag=hyprod-20&linkCode=df0&hvadid=532264134702&hvpos=&hvnetw=g&hvrand=16876443853742772586&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003964&hvtargid=pla-1414999816226&mcid=3c1ac3317e91305db68b42539ab9e1b9&th=1'
 all_reviews = []    # holds all reviews from all pages
 num_pages_to_iterate = 15
